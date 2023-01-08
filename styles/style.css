@@ -8,11 +8,6 @@
 }
 
 :root {
-  --clr-Very-dark-desaturated-blue-main-background: #3a4764;
-  --clr-Very-dark-desaturated-blue-toggle-background: #232c43;
-  --clr-Very-dark-desaturated-blue-screen-background: #182034;
-  --clr-Dark-moderate-cyan-key-background: #377f86;
-  --clr-Very-dark-cyan-key-shadow: #1b5f65;
   --clr-Very-dark-violet-main-background: #160628;
   --clr-Very-dark-violet-toggle-screen-background: #1d0934;
   --clr-Dark-violet-keybackground: hsl(281, 89%, 26%);
@@ -23,7 +18,6 @@
   --clr-Dark-magenta-key-shadow: #871c9c;
   --clr-Light-yellow: #ffe53d;
   --clr-Very-dark-blue: #1b2428;
-  --clr-White-text: #ffffff;
 
   --box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25),
     -2px -2px 2px rgba(0, 0, 0, 0.25);
@@ -56,6 +50,7 @@ body {
   transition: all 0.5s;
 }
 
+/* bg-colors */
 .violet-bg {
   background-color: #160628;
 }
@@ -76,6 +71,7 @@ body {
   margin-bottom: -0.001rem;
 }
 
+/* error */
 .position {
   position: relative;
 }
@@ -157,6 +153,7 @@ h1 {
   font-size: 2.25rem;
 }
 
+/* screen */
 .display {
   width: 100%;
   margin-bottom: 2rem;
@@ -168,6 +165,7 @@ h1 {
   letter-spacing: 2px;
 }
 
+/* btns */
 .btns {
   width: 20%;
   height: 50px;

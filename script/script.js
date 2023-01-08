@@ -2,6 +2,7 @@
 const outPutScreenEl = document.getElementById("display");
 const toggleEl = document.getElementById("theme-toggle");
 const errorMsg = document.querySelector(".error");
+
 // functions
 // numbers
 function display(num) {
