@@ -12,16 +12,21 @@ function display(num) {
 
 // equal btn
 function calculate() {
-  try {
-    outPutScreenEl.value = eval(outPutScreenEl.value);
-  } catch (error) {
+  if (outPutScreenEl.value === "") {
     errorMsg.style.display = "block";
+  } else {
+    try {
+      outPutScreenEl.value = eval(outPutScreenEl.value);
+    } catch (error) {
+      errorMsg.style.display = "block";
+    }
   }
 }
 
 // to clear the display
 function reset() {
   outPutScreenEl.value = "";
+  errorMsg.style.display = "none";
 }
 
 // to del the number one by one
